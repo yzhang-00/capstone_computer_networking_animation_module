@@ -1,6 +1,6 @@
 # capstone_computer_networking_animation_module
 
-ow to install React
+<!-- how to install React
 
 install node.js
 check if you have by typing
@@ -16,4 +16,4 @@ npm install (install third party library)
 open the folder in IDE
 in terminal
 npm run dev
-open the address
+open the address -->
