@@ -1,33 +1,54 @@
 # capstone_computer_networking_animation_module
 
-how to install React
+1. Install React
 
-install node.js
+   First need to install node.js from nodejs.org
 
-check if you have by typing
+   Then verify installation:
 
-node -v
+   ```shell
+   $ node -v
+   ```
 
-nodejs.org to download
+   This will print version installed
 
-Using VScode (any IDE you want)
+   
 
-install vite (a web development build tool, supports css,html and javascript, also has development server/localhost)
+2. Open VScode (any IDE you want), direct to the directory where you pulled this repo
 
-in terminal
+   ```shell
+   $ # this install dependencies needed for our project
+   $ npm install
+   $ # run the project
+   $ npm run dev
+   ```
 
-npm create vite@latest
+   The output could look like this:
 
-i'm using typescript (TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.)
+   ```shell
+   YOUR_PATH_TO_REPO> npm run dev
+   
+   > ece496-capstone@0.0.0 dev
+   > vite
+   
+   
+     VITE v4.4.9  ready in 811 ms
+   
+     ➜  Local:   http://localhost:5173/
+     ➜  Network: use --host to expose
+     ➜  press h to show help
+   ```
 
-cd ece496Capstone
+   Copy the address http://localhost:5173/ to your browser for preview. 
 
-npm install (install third party library)
 
-open the folder in IDE
 
-in terminal
+Notes: 
 
-npm run dev
+Vite is a web development build tool, supports css,html and javascript, also has development server/localhost.
 
-open the address
+To create a new project: `npm create vite@latest`
+
+I'm using typescript (TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.)
+
+
