@@ -49,6 +49,8 @@ button {
 }
 button:hover {
   border-color: #646cff;
+  border-radius: 20px;
+  font-weight: 1000;
 }
 button:focus,
 button:focus-visible {
