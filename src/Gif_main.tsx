@@ -1,4 +1,4 @@
-import wwwlogo from './assets/tmp.gif'
+import wwwlogo from './assets/wwwlogo.gif'
 import main_gif from './assets/tmp.gif'
 
 function Gif_main(){
