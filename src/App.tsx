@@ -4,11 +4,12 @@ import { BrowserRouter as Router, Routes, Route }
     from "react-router-dom";
 import Application from "./components/Application";
 import Transport from "./components/Transport";
-import Main from "./components/Main";
+import Main from "./components/Router";
 import Datalink from './components/Datalink';
 
 function App(){
   return (
+    <>
     <div><Message />
     <div className='btn'>
       <Router>
@@ -22,6 +23,7 @@ function App(){
       </Router>
     </div>
     </div>
+    </>
   );
 }
 
