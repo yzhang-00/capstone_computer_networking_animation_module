@@ -41,6 +41,51 @@
   color: #888;
 }
 
-.btn {
-  display: inline-flex;
+body{
+  height: 100%;
+  background-image: url("./assets/background_main_networks_nodes.svg");
+  background-color: #f8d763;
+  
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.horizontal_line{
+  border: none;
+  height: 1px;  /* thickness */
+  background-color: #666464;
+  width: 100%;
+  margin: 0;
+}
+
+.gif-container {
+  position: relative;
+  margin: 20px auto;
+  max-width: 800px;
+  border: 1px dashed #1b1a1a;
+}
+.gif {
+  width: 100%;
+  height: auto;
+}
+
+.gif-logo-container{
+  position: absolute;
+  top: 40px;
+  left: 230px;
+}
+.gif-logo {
+  width: 50%;
+  height: auto;
 }

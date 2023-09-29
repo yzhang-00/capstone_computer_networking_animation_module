@@ -6,6 +6,7 @@ import Application from "./components/Application";
 import Transport from "./components/Transport";
 import Main from "./components/Router";
 import Datalink from './components/Datalink';
+import './App.css'
 
 function App(){
   return (

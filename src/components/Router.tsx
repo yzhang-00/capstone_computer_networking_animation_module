@@ -1,4 +1,6 @@
 import { Router, useNavigate } from 'react-router-dom';
+import './Router.css'
+import 'bootstrap/dist/css/bootstrap.css';
   
 function Main() {
   const navigate = useNavigate();
@@ -26,15 +28,19 @@ function Main() {
   };
 
   return (
+    <>
     <div className="App">
       <header className="App-header">
         <p>Main components</p>
-        <button onClick={gotToApplicationComp}> Application Layer </button>
-        <button onClick={goToTransportComp}> Transport Layer </button>
-        <button onClick={goToNetworkComp}> Network Layer </button>
-        <button onClick={goToDatalinkComp}> Datalink Layer </button>
+        <div className = "btn-group-justified btn-group-sm btn-group-vertical my-auto">
+        <button className="a-btn" onClick={gotToApplicationComp}> Application Layer </button>
+        <button className="t-btn" onClick={goToTransportComp}> Transport Layer </button>
+        <button className="n-btn" onClick={goToNetworkComp}> Network Layer </button>
+        <button className="d-btn" onClick={goToDatalinkComp}> Datalink Layer </button>
+        </div>
       </header>
     </div>
+    </>
   );
 }
   
