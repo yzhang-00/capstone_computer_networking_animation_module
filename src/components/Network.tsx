@@ -7,7 +7,7 @@ function Network() {
       <header className="App-header">
         <p>Network components</p>
   
-        <Link to="/">go back</Link>
+        <Link to="/layer">go back</Link>
       </header>
     </div>
   );

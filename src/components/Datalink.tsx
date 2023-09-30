@@ -7,7 +7,7 @@ function Datalink() {
       <header className="App-header">
         <p>Datalink components</p>
   
-        <Link to="/">go back</Link>
+        <Link to="/layer">go back</Link>
       </header>
     </div>
   );

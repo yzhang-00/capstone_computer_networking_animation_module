@@ -7,7 +7,7 @@ function Application() {
       <header className="App-header">
         <p>Application components</p>
   
-        <Link to="/">go back</Link>
+        <Link to="/layer">Back to Layer page</Link>
       </header>
     </div>
   );

@@ -7,7 +7,7 @@ function Transport() {
       <header className="App-header">
         <p>Transport components</p>
   
-        <Link to="/">go back</Link>
+        <Link to="/layer">go back</Link>
       </header>
     </div>
   );
