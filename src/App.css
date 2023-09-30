@@ -43,7 +43,7 @@
 
 body{
   height: 100%;
-  background-image: url("./assets/background_main_networks_nodes.svg");
+  background-image: url("./assets/img/background_main_networks_nodes.svg");
   background-color: #f8d763;
   
   background-size: cover;
