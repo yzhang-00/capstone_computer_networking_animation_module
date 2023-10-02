@@ -1,7 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0 ;
   text-align: center;
 }
 
@@ -71,21 +69,13 @@ body{
 
 .gif-container {
   position: relative;
-  margin: 20px auto;
-  max-width: 800px;
-  border: 1px dashed #1b1a1a;
-}
-.gif {
-  width: 100%;
-  height: auto;
+  max-width: auto;
+  /* border: 1px dashed #1b1a1a;*/
 }
 
 .gif-logo-container{
+  width: 100px;
   position: absolute;
   top: 40px;
   left: 230px;
-}
-.gif-logo {
-  width: 50%;
-  height: auto;
 }
