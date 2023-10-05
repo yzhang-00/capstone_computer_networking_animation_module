@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Application_sub1() {
+function Transport_sub2() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Application components page2</p>
+        <p>Transport components page3</p>
 
         <Link to="/layer">Back to Layer page</Link>
       </header>
@@ -13,5 +13,4 @@ function Application_sub1() {
   );
 }
 
-export default Application_sub1;
- 
+export default Transport_sub2;
