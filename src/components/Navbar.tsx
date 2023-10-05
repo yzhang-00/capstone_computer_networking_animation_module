@@ -21,8 +21,8 @@ function NavigationBar() {
                 Application
               </NavDropdown.Item>
             </LinkContainer>
-            <NavDropdown.Item href="#dropdown1/page-2">Page 2</NavDropdown.Item>
-            <NavDropdown.Item href="#dropdown1/page-3">Page 3</NavDropdown.Item>
+            <NavDropdown.Item href="/application/Application_sub1">application page2</NavDropdown.Item>
+            <NavDropdown.Item href="/application/Application_sub2">application page 3</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Transport Layer" id="dropdown2">
             <LinkContainer to="/transport">
@@ -30,8 +30,8 @@ function NavigationBar() {
                 Transport
               </NavDropdown.Item>
             </LinkContainer>
-            <NavDropdown.Item href="#dropdown1/page-2">Page 2</NavDropdown.Item>
-            <NavDropdown.Item href="#dropdown1/page-3">Page 3</NavDropdown.Item>
+            <NavDropdown.Item href="/transport/Transport_sub1">transport page 2</NavDropdown.Item>
+            <NavDropdown.Item href="/transport/Transport_sub2">transport page 3</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Network Layer" id="dropdown1">
             <LinkContainer to="/network">
@@ -39,8 +39,8 @@ function NavigationBar() {
                 Network
               </NavDropdown.Item>
             </LinkContainer>
-            <NavDropdown.Item href="#dropdown1/page-2">Page 2</NavDropdown.Item>
-            <NavDropdown.Item href="#dropdown1/page-3">Page 3</NavDropdown.Item>
+            <NavDropdown.Item href="/network/Network_sub1">network page 2</NavDropdown.Item>
+            <NavDropdown.Item href="/network/Network_sub2">network page 3</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Datalink Layer" id="dropdown4">
             <LinkContainer to="/datalink">

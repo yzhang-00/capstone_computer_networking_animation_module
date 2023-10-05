@@ -17,3 +17,8 @@
   /* display: inline-flex; */
   background-color: violet;
 }
+
+#lyrbtns button {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
