@@ -15,6 +15,8 @@ import Transport_sub1 from "./pages/Transport_sub1";
 import Transport_sub2 from "./pages/Transport_sub2";
 import Network_sub1 from "./pages/Network_sub1";
 import Network_sub2 from "./pages/Network_sub2";
+import Datalink_sub1 from "./pages/Datalink_sub1";
+import Datalink_sub2 from "./pages/Datalink_sub2";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
             <Route path="/transport/Transport_sub2" element={<Transport_sub2 />} />
             <Route path="/network/Network_sub1" element={<Network_sub1 />} />
             <Route path="/network/Network_sub2" element={<Network_sub2 />} />
+            <Route path="/datalink/Datalink_sub1" element={<Datalink_sub1 />} />
+            <Route path="/datalink/Datalink_sub2" element={<Datalink_sub2 />} />
           </Routes>
         </div>
       </Router>

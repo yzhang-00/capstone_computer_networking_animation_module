@@ -48,8 +48,8 @@ function NavigationBar() {
                 Datalink
               </NavDropdown.Item>
             </LinkContainer>
-            <NavDropdown.Item href="#dropdown2/page-2">Page 2</NavDropdown.Item>
-            <NavDropdown.Item href="#dropdown2/page-3">Page 3</NavDropdown.Item>
+            <NavDropdown.Item href="/datalink/Datalink_sub1">datalink page 2</NavDropdown.Item>
+            <NavDropdown.Item href="/datalink/Datalink_sub2">datalink page 3</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
