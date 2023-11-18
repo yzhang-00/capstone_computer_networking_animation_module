@@ -16,11 +16,7 @@ function NavigationBar() {
             <Nav.Link href="#main">Main Page</Nav.Link>
           </LinkContainer>
           <NavDropdown title="Animation Module" id="dropdown1">
-            <LinkContainer to="/animation_3d">
-              <NavDropdown.Item href="#dropdown1/page-1">
-                Animation Module
-              </NavDropdown.Item>
-            </LinkContainer>
+            <a className="nav-link" href="https://v3d.net/q8o">Animation Module</a>
             <NavDropdown.Item href="/animation_3d/details"> Animation Module Details</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Transport Layer" id="dropdown2">

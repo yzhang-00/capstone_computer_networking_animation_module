@@ -20,7 +20,7 @@ function Layer() {
           <div className="row">
             <div className="col">
             <div id="lyrbtns" className="btn-group-justified btn-group-sm btn-group-vertical my-auto">
-              <Link to="/animation_3d">
+              <Link to="https://v3d.net/q8o">
                 <button className="a-btn" onClick={btn_clk} >3D Animation Module</button>
               </Link>
               <Link to="/transport">

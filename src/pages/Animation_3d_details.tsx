@@ -7,7 +7,7 @@ function Animation_3d_details() {
       <header className="App-header">
         <p>3D Animation Module for Computer Networks details</p>
 
-        <Link to="/animation_3d">Back to Animation</Link>
+        <Link to="https://v3d.net/q8o">Back to Animation</Link>
       </header>
     </div>
   );

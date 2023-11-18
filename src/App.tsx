@@ -4,7 +4,6 @@ import "./App.css";
 
 import Landing_page from "./pages/Landing_page";
 import Layer from "./pages/Layer";
-import Animation_3d from "./pages/Animation_3d";
 import Transport from "./pages/Transport";
 import Datalink from "./pages/Datalink";
 import Network from "./pages/Network";
@@ -26,7 +25,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing_page />} />
             <Route path="/layer" element={<Layer />} />
-            <Route path="/animation_3d" element={<Animation_3d />} />
             <Route path="/transport" element={<Transport />} />
             <Route path="/network" element={<Network />} />
             <Route path="/datalink" element={<Datalink />} />
