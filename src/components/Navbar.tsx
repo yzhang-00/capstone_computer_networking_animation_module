@@ -15,14 +15,13 @@ function NavigationBar() {
           <LinkContainer to="/layer">
             <Nav.Link href="#main">Main Page</Nav.Link>
           </LinkContainer>
-          <NavDropdown title="Application Layer" id="dropdown1">
-            <LinkContainer to="/application">
+          <NavDropdown title="Animation Module" id="dropdown1">
+            <LinkContainer to="/animation_3d">
               <NavDropdown.Item href="#dropdown1/page-1">
-                Application
+                Animation Module
               </NavDropdown.Item>
             </LinkContainer>
-            <NavDropdown.Item href="/application/Application_sub1">application page2</NavDropdown.Item>
-            <NavDropdown.Item href="/application/Application_sub2">application page 3</NavDropdown.Item>
+            <NavDropdown.Item href="/animation_3d/details"> Animation Module Details</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Transport Layer" id="dropdown2">
             <LinkContainer to="/transport">
