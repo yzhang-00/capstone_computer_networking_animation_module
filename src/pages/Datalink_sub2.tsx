@@ -367,7 +367,7 @@ function Datalink_sub2() {
           <img src={finalspt_png} alt="protocol" className="smaller-image" />
           <div className="image-description">Complete Spanning Tree</div>
         </div>
-
+<br></br>
         <button>
           <Link to="/datalink">Page1</Link>
         </button>

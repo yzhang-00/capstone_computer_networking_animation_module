@@ -11,13 +11,11 @@ function Transport() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Transport components</p>
-        <button><Link to="/transport/Transport_sub1">transport page2</Link></button>
-        <button><Link to="/transport/Transport_sub2">transport page3</Link></button>
-        <Link to="/layer">go back</Link>
+        
 
-
+        
         <h1>TCP transport</h1>
+        <div className="explaination-container">
         <h2>what can it does?</h2>
         <p>1.Can ensure delivery of data across an unreliable network</p>
         <p>2.End-to-end argument: Puts minimal functionality requirements on the hop-by-hop basis and maximal control. </p>
@@ -78,6 +76,11 @@ function Transport() {
         <p>2. Error correction: rely on Checksum, Acknowledgement, and Retransmission timer.</p>
         <p><br></br></p>
         <p><br></br></p>
+        </div>
+    <br></br>
+        <button><Link to="/transport/Transport_sub1">transport page2</Link></button>
+        <button><Link to="/transport/Transport_sub2">transport page3</Link></button>
+        <Link to="/layer">go back</Link>
       </header>
     </div>
   );
