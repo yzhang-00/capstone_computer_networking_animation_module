@@ -8,7 +8,7 @@ import "../assets/css/Layer.css";
 import layer_png from "../assets/img/layers.png";
 
 function btn_clk(){
-  alert("开动画")
+  // alert("Open animation as external website")
 }
 
 function Layer() {
@@ -36,7 +36,7 @@ function Layer() {
             </div>
             </div>
             <div className="col">
-              <img className="" src={layer_png} alt="layer_png"></img>
+              <img className="" src={layer_png} alt="layer_png" width="70%" ></img>
             </div>
           </div>
         </div>
