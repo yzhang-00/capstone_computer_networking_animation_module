@@ -11,6 +11,7 @@ function Datalink() {
       <header className="App-header">
         <div className="section_wrapper">
           <h1>Data Link Layer</h1>
+          <hr className="horizontal_line"></hr>
           <h2>Introduction</h2>
           <p>
             The data link layer, or layer 2, is the second layer of the

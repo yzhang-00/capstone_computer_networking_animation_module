@@ -20,6 +20,7 @@ function Datalink_sub1() {
       <header className="App-header">
         <div className="section_wrapper">
           <h1>Data Link Protocol</h1>
+          <hr className="horizontal_line"></hr>
           <h2>Internet protocol suite</h2>
           <p>
             -The Internet protocol suite does not define data link and physical

@@ -23,6 +23,7 @@ function Datalink_sub2() {
       <header className="App-header">
         <div className="section_wrapper">
           <h1>Layer 2 Swtiching</h1>
+          <hr className="horizontal_line"></hr>
           <br></br>
           <h2>Interconnection at Layer 2</h2>
           <p>
