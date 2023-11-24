@@ -8,7 +8,7 @@ import "../assets/css/Layer.css";
 import layer_png from "../assets/img/layers.png";
 
 function btn_clk(){
-  alert("aaaaaaaaaa")
+  // alert("Open animation as external website")
 }
 
 function Layer() {
@@ -20,8 +20,8 @@ function Layer() {
           <div className="row">
             <div className="col">
             <div id="lyrbtns" className="btn-group-justified btn-group-sm btn-group-vertical my-auto">
-              <Link to="/application">
-                <button className="a-btn" onClick={btn_clk} >Application Layer</button>
+              <Link to="https://v3d.net/q8o">
+                <button className="a-btn" onClick={btn_clk} >3D Animation Module</button>
               </Link>
               <Link to="/transport">
                 <button className="t-btn">Transport Layer</button>
@@ -36,7 +36,7 @@ function Layer() {
             </div>
             </div>
             <div className="col">
-              <img className="" src={layer_png} alt="layer_png"></img>
+              <img className="" src={layer_png} alt="layer_png" width="70%" ></img>
             </div>
           </div>
         </div>

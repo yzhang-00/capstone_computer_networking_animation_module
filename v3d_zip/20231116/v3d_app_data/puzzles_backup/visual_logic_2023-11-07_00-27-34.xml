@@ -1,0 +1,738 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="291.7607948303223" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="CommonTab" active="false" scrollx="342.39444717095853" scrolly="-122.44897959183669" scale="0.8163265306122448">
+    <block xmlns="https://developers.google.com/blockly/xml" type="batchGeometry" id="kEh_z{%XzzK8@6_9Sqht" x="70" y="150">
+      <value name="TARGET">
+        <shadow type="allObjectList" id="iIEfnvrA!iRg3^:z`zf{"></shadow>
+      </value>
+    </block>
+  </tab>
+  <tab name="annotation" type="CommonTab" active="false" scrollx="218.59991455078125" scrolly="-81" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="zcqO~liZmJ|L2napS3!7" x="130" y="90">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="pt)96+XG42jvB9HcBclU">
+          <field name="TEXT">SW1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+          <field name="FIELDNAME">Scene</field>
+        </shadow>
+        <block type="objectList" id="*-vW^~P2HUh5oTi)_8~]">
+          <field name="FIELDNAME">SW1_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="mp=iKKntIwKH-JJn56j_">
+          <field name="TEXT">I'm a switch!</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="+}c3:;}1K|8CTR+N[LWC">
+          <field name="TEXT">sw_1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="C=m^$f3+yT9S_ug^Lu7=">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="Xq0@#I+fz*x2jB[n!Rm2">
+              <field name="TEXT">SW2</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+              <field name="FIELDNAME">Scene</field>
+            </shadow>
+            <block type="objectList" id="/Rx$AG`I7(_j/E6IozKc">
+              <field name="FIELDNAME">SW2_annotation</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="~pAwqrXzto/*Z!I}EV8M">
+              <field name="TEXT">I'm a switch!</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="EKQC@l~y1k|~frGinbn6">
+              <field name="TEXT">sw_2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="addAnnotation" id="..k2g9WS!HcHCf=sm27K">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text" id="zAk|obd^LNMCU}J^eGis">
+                  <field name="TEXT">SW4</field>
+                </shadow>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+                  <field name="FIELDNAME">Scene</field>
+                </shadow>
+                <block type="objectList" id="q#3SpaGDD@CK~D~F?d,_">
+                  <field name="FIELDNAME">SW4_annotation</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="1[t)X-g]SC]HP:[yYr0f">
+                  <field name="TEXT">I'm a switch!</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="GVf!jzQiq5-njKgK7?mF">
+                  <field name="TEXT">sw_4</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="ePRT!H4UBt*[G:+]m;Sc" x="130" y="290">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="XpOA7|NKJT3(x80UDw2R">
+          <field name="TEXT">PC1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+          <field name="FIELDNAME">Scene</field>
+        </shadow>
+        <block type="objectList" id="gd_2%H4w}f5ZXGbYAc4m">
+          <field name="FIELDNAME">PC1_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="uyP#AadJ]/f6pWJ`97k{">
+          <field name="TEXT">(TODO: routing_table)</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="ea7OZdyT~cx!HBKPVoSu">
+          <field name="TEXT">pc_1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="d~CWx*lB1MFIJdMC$sL(" x="130" y="390">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="5X)v}*%T(O?0,TWGrY{L">
+          <field name="TEXT">R1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+          <field name="FIELDNAME">Scene</field>
+        </shadow>
+        <block type="objectList" id="Z:?0gTEl=CUMCY3Ga2dw">
+          <field name="FIELDNAME">R1_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="Q5|K2h[Qq|%f=X(/0D/3">
+          <field name="TEXT">(TODO: routing_table)</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="^znB+yiTi+9b$}5~6(7V">
+          <field name="TEXT">r_1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="]A#r;/c%3I1r+qPMtbFN">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="J@BnTJEZxODnZ^gzY5u!">
+              <field name="TEXT">R2</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+              <field name="FIELDNAME">Scene</field>
+            </shadow>
+            <block type="objectList" id="^Su3/y6*r;t4G=gHWBX,">
+              <field name="FIELDNAME">R2_annotation</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="nopPo1PPXKGeo6wt3Tsu">
+              <field name="TEXT">(TODO: routing_table)</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id=":wwT}y1/y7Ua^`%]RwW4">
+              <field name="TEXT">r_2</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="cameras" type="CommonTab" active="false" scrollx="-107.08434083296038" scrolly="-154.2236871256273" scale="0.8999999999999999">
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="UA$P-abvJ}K(@={kj7{9" x="110" y="-210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id=";K-1mh`IspphCIs^;,;6">
+          <field name="TEXT">.myClass</field>
+        </shadow>
+        <block type="text" id="zkzr]us/!?gfWhI8N9Bh">
+          <field name="TEXT">.interreaction_icon</field>
+        </block>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="text" id="L^+?:ImJST)2w+Cr+%aQ">
+          <field name="TEXT">color: red;</field>
+        </shadow>
+        <block type="textMultiline" id="$)9P9U.5O_a(jpcEYN8I">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="12" editor-width="470">position: absolute;&amp;#10;background-size: 60%;&amp;#10;background-color: white;&amp;#10;background-position: center;&amp;#10;background-repeat: no-repeat;&amp;#10;border-radius: 25px;&amp;#10;width: 40px;&amp;#10;height: 40px;&amp;#10;z-index: 2;&amp;#10;cursor: pointer;&amp;#10;                  </field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="MpPABO(ah}74=_gbG^(~" x="90" y="90">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="atRi3cIeua?veC;%,o/i">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="text" id="4o^p:_G0)M}EAPki7#pA">
+          <field name="TEXT">Cam_PC7</field>
+        </block>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="xk`g{/G`4}M-[3|0!}D4">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemAttribute" id="V=VWMY7|ydT3jw%jYmc`">
+          <field name="ATTRIBUTE">className</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="-1y-CmBa)S8mSEZrBNFY">
+              <field name="TEXT">interreaction_icon</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="}J-SMkcx7s0*sw-9s_-N">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="text" id="4N/1=CCvpHnSPk`f}t-w">
+              <field name="TEXT">Cam_PC7</field>
+            </block>
+          </value>
+          <next>
+            <block type="bindHTMLObject" id="!Pne7{hz;fWNzg/X`/nt">
+              <field name="PARENT">FALSE</field>
+              <value name="ID">
+                <shadow type="text" id="wX6`Z1J%X]TH,j3GR8:h">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="A{1JP~$s=wm],A]r1mW5">
+                  <field name="TEXT">Cam_PC7</field>
+                </block>
+              </value>
+              <value name="OBJECTINPUT">
+                <shadow type="objectList" id="DPLok`#;uwj)]sF~mMH(">
+                  <field name="FIELDNAME">Cam_PC7</field>
+                </shadow>
+                <block type="objectList" id="Vxpm73K.;rW9{m$9d5vr">
+                  <field name="FIELDNAME">Cam_PC7</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="K4_40SK;)LmDAHLQmigj">
+                  <field name="PROPERTY">left</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="]47H%.ZB*ZGyJ7.RKuTT">
+                      <field name="TEXT">-20px</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                      <field name="TEXT"></field>
+                    </shadow>
+                    <block type="text" id="|3:zFqTy?elvVy=F5M7g">
+                      <field name="TEXT">Cam_PC7</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="8|qji~BrBi7qIy]S}E+G">
+                      <field name="PROPERTY">top</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="L4nj+oP.xC]aJL*Nbz+q">
+                          <field name="TEXT">-20px</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                          <field name="TEXT"></field>
+                        </shadow>
+                        <block type="text" id=")z[GasTOm.*.a^NKBFh^">
+                          <field name="TEXT">Cam_PC7</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="Z(.K(^yup0m,Z,-:Z6Bn">
+                          <field name="PROPERTY">backgroundColor</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <block type="text" id="cB%zs?FWzNpM8shzo/d.">
+                              <field name="TEXT">#B5DFFF</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                              <field name="TEXT"></field>
+                            </shadow>
+                            <block type="text" id="kkvI+.c^b4wHA(nxu=MV">
+                              <field name="TEXT">Cam_PC7</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemStyle" id="aEIz1~BrDQ`ZJ5Ca;~Z(">
+                              <field name="PROPERTY">backgroundImage</field>
+                              <field name="PARENT">FALSE</field>
+                              <value name="VALUE">
+                                <block type="text" id="yXTH[SVgMh[edxV3*VQd">
+                                  <field name="TEXT">url(img/icon/eye-regular.svg)</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                                  <field name="TEXT"></field>
+                                </shadow>
+                                <block type="text" id="PnV({7l3kqb8Uc}0bOmU">
+                                  <field name="TEXT">Cam_PC7</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id=";WlC!-2WZWV8YDQ.U.Gr" x="1030" y="90">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="atRi3cIeua?veC;%,o/i">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="text" id="|6I;9LAFF9$ejZ3Aw)V7">
+          <field name="TEXT">Cam_PC1</field>
+        </block>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="5;HoKr1%$P2hmM1p9x#J">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemAttribute" id="[S6no|0$@!XHSl[3382V">
+          <field name="ATTRIBUTE">className</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="9~v{,+iH%stMKU6#W=Ry">
+              <field name="TEXT">interreaction_icon</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="}J-SMkcx7s0*sw-9s_-N">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="text" id="rL;s$_38e8{uqHYZV{+,">
+              <field name="TEXT">Cam_PC1</field>
+            </block>
+          </value>
+          <next>
+            <block type="bindHTMLObject" id="(q2nr2r0!hXg;sXoQy;}">
+              <field name="PARENT">FALSE</field>
+              <value name="ID">
+                <shadow type="text" id="wX6`Z1J%X]TH,j3GR8:h">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="0i,ZnvufmRk*,+4,+FEl">
+                  <field name="TEXT">Cam_PC1</field>
+                </block>
+              </value>
+              <value name="OBJECTINPUT">
+                <shadow type="objectList" id="DPLok`#;uwj)]sF~mMH(">
+                  <field name="FIELDNAME">Cam_PC7</field>
+                </shadow>
+                <block type="objectList" id="fLdWL.DIeCtlb}O~Gt/?">
+                  <field name="FIELDNAME">Cam_PC1</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="Itfe!7(p!r3p]AxNMyl?">
+                  <field name="PROPERTY">left</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="1~y.2sO)A{B6_+CKH3*@">
+                      <field name="TEXT">-20px</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                      <field name="TEXT"></field>
+                    </shadow>
+                    <block type="text" id="H;*fhf1|6v%r+$B1q{s~">
+                      <field name="TEXT">Cam_PC1</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="=H!HQJ?]pKa+d~W~/F)P">
+                      <field name="PROPERTY">top</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="m#8/K9-S|l2GJ8+BZ!4g">
+                          <field name="TEXT">-20px</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                          <field name="TEXT"></field>
+                        </shadow>
+                        <block type="text" id="-n8v6+^]noC^$*@v`;=S">
+                          <field name="TEXT">Cam_PC1</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="Kp|}A(vfhMV|Y3hdHChS">
+                          <field name="PROPERTY">backgroundImage</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <block type="text" id="D=xZkUo$[pgW=u^BF-u/">
+                              <field name="TEXT">url(img/icon/eye-regular.svg)</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                              <field name="TEXT"></field>
+                            </shadow>
+                            <block type="text" id="=?-/jEvqBV~%I@vT8xHQ">
+                              <field name="TEXT">Cam_PC1</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemStyle" id="7)o,yGi857P1xDfTLYCE">
+                              <field name="PROPERTY">display</field>
+                              <field name="PARENT">FALSE</field>
+                              <value name="VALUE">
+                                <block type="text" id="3sAyo=[=C+B-[T0w6e!{">
+                                  <field name="TEXT">none</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                                  <field name="TEXT"></field>
+                                </shadow>
+                                <block type="text" id="Q.jND%Bo4]gHQ_3].mFw">
+                                  <field name="TEXT">Cam_PC1</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="J]48@1Z#yu=C,r;bkvnK" x="90" y="430">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="kK]yqPq5ByMw}$nM.e4m">
+          <field name="TEXT">Cam_PC7</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="J]Si[XUdNZo3]TbyjJ)x">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">SPHERICAL</field>
+          <value name="POSITION">
+            <block type="objectList" id="Y[Y89FTsVd#3!?X?!17U">
+              <field name="FIELDNAME">Cam_PC7</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="=?H4,gf=0O]@XA1`EUvP">
+              <field name="FIELDNAME">Cam_PC7_lookat</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="7A}==)-nS/P1sf?:583F">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="f1`N]Gw|`aR;U=5YB}74">
+              <field name="PROPERTY">display</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="{_NEDno=Ie[;TtFQ7K2m">
+                  <field name="TEXT">none</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id=",{kfca=JbtcK+6Ss`of4">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id=")e47M1-0iymqq%qw+/d6">
+                  <field name="TEXT">Cam_PC7</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="g-vh!5X4zB4NR1vOU1N;">
+                  <field name="PROPERTY">display</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="_A5ZsiAK3mB|jdEyq_YO">
+                      <field name="TEXT">block</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id=",{kfca=JbtcK+6Ss`of4">
+                      <field name="TEXT"></field>
+                    </shadow>
+                    <block type="lists_create_with" id="V!Xyk2V!JH1V1n}OGS1~">
+                      <mutation items="3"></mutation>
+                      <value name="ADD0">
+                        <block type="text" id="Q,+*(2NAvx2CjE~TXXT6">
+                          <field name="TEXT">Cam_PC1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="6(0G[+)jZyc2_-JZz$.*" x="1030" y="430">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="acXUK)tRN?~hv(NP[u3q">
+          <field name="TEXT">Cam_PC1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="-M},^h}eQU2uEHR:N(qy">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">SPHERICAL</field>
+          <value name="POSITION">
+            <block type="objectList" id=":Ym|N-54[:sg2QlwQH$N">
+              <field name="FIELDNAME">Cam_PC1</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="k)uCsg2dX1{So*$J4=No">
+              <field name="FIELDNAME">Cam_PC1_lookat</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="DH#xkZoHZi|ga:Swl;}X">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="n5!u1*McriYs~@UU#@=G">
+              <field name="PROPERTY">display</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="n7a3VB+1U*.zU+0gXfIv">
+                  <field name="TEXT">none</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id=",{kfca=JbtcK+6Ss`of4">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="3NoSZjR.xc2uh!:]iHz*">
+                  <field name="TEXT">Cam_PC1</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="y-nk^+[Z-*NS+iO_I-.a">
+                  <field name="PROPERTY">display</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="|@7-|]MD){+k?9daS{1m">
+                      <field name="TEXT">block</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id=",{kfca=JbtcK+6Ss`of4">
+                      <field name="TEXT"></field>
+                    </shadow>
+                    <block type="lists_create_with" id="}hW*sw+@=GXu,rvm99r;">
+                      <mutation items="3"></mutation>
+                      <value name="ADD0">
+                        <block type="text" id="=I-7i?8pH8P$q3dbGSPg">
+                          <field name="TEXT">Cam_PC7</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="buttons" type="CommonTab" active="true" scrollx="28.800000000000296" scrolly="-41.00000000000003" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="UA$P-abvJ}K(@={kj7{9" x="110" y="70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id=";K-1mh`IspphCIs^;,;6">
+          <field name="TEXT">.myClass</field>
+        </shadow>
+        <block type="text" id="zkzr]us/!?gfWhI8N9Bh">
+          <field name="TEXT">.info_button</field>
+        </block>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="text" id="L^+?:ImJST)2w+Cr+%aQ">
+          <field name="TEXT">color: red;</field>
+        </shadow>
+        <block type="textMultiline" id="$)9P9U.5O_a(jpcEYN8I">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="12" editor-width="470">position: absolute;&amp;#10;background-size: 60%;&amp;#10;background-color: white;&amp;#10;background-position: center;&amp;#10;background-repeat: no-repeat;&amp;#10;border-radius: 25px;&amp;#10;width: 40px;&amp;#10;height: 40px;&amp;#10;z-index: 2;&amp;#10;cursor: pointer;&amp;#10;                  </field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="=Ns1}OL;HeM/m3o;+!rw" x="150" y="330">
+      <value name="VALUE">
+        <shadow type="objectList" id="P4vUdD?*e?:EyLn[Bd]y">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="MpPABO(ah}74=_gbG^(~" x="110" y="390">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="atRi3cIeua?veC;%,o/i">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="text" id="4o^p:_G0)M}EAPki7#pA">
+          <field name="TEXT">R1_info</field>
+        </block>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="xk`g{/G`4}M-[3|0!}D4">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemAttribute" id="V=VWMY7|ydT3jw%jYmc`">
+          <field name="ATTRIBUTE">className</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="-1y-CmBa)S8mSEZrBNFY">
+              <field name="TEXT">info_button</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="}J-SMkcx7s0*sw-9s_-N">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="text" id="4N/1=CCvpHnSPk`f}t-w">
+              <field name="TEXT">R1_info</field>
+            </block>
+          </value>
+          <next>
+            <block type="bindHTMLObject" id="!Pne7{hz;fWNzg/X`/nt">
+              <field name="PARENT">FALSE</field>
+              <value name="ID">
+                <shadow type="text" id="wX6`Z1J%X]TH,j3GR8:h">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="A{1JP~$s=wm],A]r1mW5">
+                  <field name="TEXT">R1_info</field>
+                </block>
+              </value>
+              <value name="OBJECTINPUT">
+                <shadow type="objectList" id="DPLok`#;uwj)]sF~mMH(">
+                  <field name="FIELDNAME">Cam_PC7</field>
+                </shadow>
+                <block type="objectList" id="Vxpm73K.;rW9{m$9d5vr">
+                  <field name="FIELDNAME">R1_button</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="Z(.K(^yup0m,Z,-:Z6Bn">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="cB%zs?FWzNpM8shzo/d.">
+                      <field name="TEXT">#B5DFFF</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                      <field name="TEXT"></field>
+                    </shadow>
+                    <block type="text" id="kkvI+.c^b4wHA(nxu=MV">
+                      <field name="TEXT">R1_info</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="aEIz1~BrDQ`ZJ5Ca;~Z(">
+                      <field name="PROPERTY">backgroundImage</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="yXTH[SVgMh[edxV3*VQd">
+                          <field name="TEXT">url(img/icon/info.svg)</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="m*Wi]R!]Mqv:VB*{2;78">
+                          <field name="TEXT"></field>
+                        </shadow>
+                        <block type="text" id="PnV({7l3kqb8Uc}0bOmU">
+                          <field name="TEXT">R1_info</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="684.5999999999999" viewport-y="107" viewport-w="774.4" viewport-h="398" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

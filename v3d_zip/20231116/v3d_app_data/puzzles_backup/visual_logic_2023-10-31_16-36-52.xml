@@ -1,0 +1,264 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000455" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="CommonTab" active="true" scrollx="40.88126585170511" scrolly="13.999999999999943" scale="0.9">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id=",?U,}6h8=_)[6001H-Ph">camera_moving</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemStyle" id="ZvP]:a!83,!G~0tOvekI" x="70" y="30">
+      <field name="PROPERTY">display</field>
+      <field name="PARENT">TRUE</field>
+      <value name="VALUE">
+        <block type="text" id="N8btL1#F*a-3;nKRrT:K">
+          <field name="TEXT">block</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="^6u%T(FiF[4^1#7Su}GE">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="lists_create_with" id="M|vRn09|Ras{eb~h7oBl">
+          <mutation items="2"></mutation>
+          <value name="ADD0">
+            <block type="text" id=":s[7EKmS/O@WcR7}%L96">
+              <field name="TEXT">left_panel</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="text" id="x%zEChw5!H5h#0VJ#Kt|">
+              <field name="TEXT">right_panel</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="1EC]C4Ne%kq~_8:h6nxe" x="70" y="170">
+      <field name="VAR" id=",?U,}6h8=_)[6001H-Ph">camera_moving</field>
+      <value name="VALUE">
+        <block type="logic_boolean" id="rQ5=%-Ag@G9^82@lkpMf">
+          <field name="BOOL">FALSE</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimeout" id="9.,ObhSos6u)LTA7Rvy9" x="70" y="250">
+      <value name="VALUE">
+        <shadow type="math_number" id="t8,MNPP{y`#zBJ${-YZ%">
+          <field name="NUM">5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="variables_set" id="or{oB.8=m]y`N72FW5]w">
+          <field name="VAR" id=",?U,}6h8=_)[6001H-Ph">camera_moving</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="iV0s$d,`_v:7b?SsN~^t">
+              <field name="BOOL">TRUE</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="play_button" type="CommonTab" active="false" scrollx="-136.00000000000023" scrolly="-74" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="tu|Udn4#6VGLyG$7`n=*" x="270" y="110">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="{j*rj,-(5`WUG;0^MAu:">
+          <field name="TEXT">play_button</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <tab name="annotation" type="CommonTab" active="false" scrollx="-59" scrolly="47.000000000000114" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="zcqO~liZmJ|L2napS3!7" x="130" y="90">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="pt)96+XG42jvB9HcBclU">
+          <field name="TEXT">SW1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+          <field name="FIELDNAME">Scene</field>
+        </shadow>
+        <block type="objectList" id="*-vW^~P2HUh5oTi)_8~]">
+          <field name="FIELDNAME">SW1_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="mp=iKKntIwKH-JJn56j_">
+          <field name="TEXT">I'm a switch!</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="+}c3:;}1K|8CTR+N[LWC">
+          <field name="TEXT">sw_1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="C=m^$f3+yT9S_ug^Lu7=">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="Xq0@#I+fz*x2jB[n!Rm2">
+              <field name="TEXT">SW2</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+              <field name="FIELDNAME">Scene</field>
+            </shadow>
+            <block type="objectList" id="/Rx$AG`I7(_j/E6IozKc">
+              <field name="FIELDNAME">SW2_annotation</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="~pAwqrXzto/*Z!I}EV8M">
+              <field name="TEXT">I'm a switch!</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="EKQC@l~y1k|~frGinbn6">
+              <field name="TEXT">sw_2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="addAnnotation" id="q0YkXheDR.0^gwRAEHio">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text" id="M[@7=B`$Czj!edMLg1f2">
+                  <field name="TEXT">SW3</field>
+                </shadow>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+                  <field name="FIELDNAME">Scene</field>
+                </shadow>
+                <block type="objectList" id=":R{H6WjXk`Bwo%Qn2T]H">
+                  <field name="FIELDNAME">SW3_annotation</field>
+                </block>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="QvQM9HBSkC6oAj,@5{sT">
+                  <field name="TEXT">I'm a switch!</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="b)8Qbp^kHcl6mDq];:Sx">
+                  <field name="TEXT">sw_3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addAnnotation" id="..k2g9WS!HcHCf=sm27K">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="zAk|obd^LNMCU}J^eGis">
+                      <field name="TEXT">SW4</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+                      <field name="FIELDNAME">Scene</field>
+                    </shadow>
+                    <block type="objectList" id="q#3SpaGDD@CK~D~F?d,_">
+                      <field name="FIELDNAME">SW4_annotation</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="1[t)X-g]SC]HP:[yYr0f">
+                      <field name="TEXT">I'm a switch!</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="GVf!jzQiq5-njKgK7?mF">
+                      <field name="TEXT">sw_4</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="ePRT!H4UBt*[G:+]m;Sc" x="130" y="290">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="XpOA7|NKJT3(x80UDw2R">
+          <field name="TEXT">PC1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+          <field name="FIELDNAME">Scene</field>
+        </shadow>
+        <block type="objectList" id="gd_2%H4w}f5ZXGbYAc4m">
+          <field name="FIELDNAME">PC1_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="uyP#AadJ]/f6pWJ`97k{">
+          <field name="TEXT">(TODO: routing_table)</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="ea7OZdyT~cx!HBKPVoSu">
+          <field name="TEXT">pc_1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="d~CWx*lB1MFIJdMC$sL(" x="130" y="390">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="5X)v}*%T(O?0,TWGrY{L">
+          <field name="TEXT">R1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+          <field name="FIELDNAME">Scene</field>
+        </shadow>
+        <block type="objectList" id="Z:?0gTEl=CUMCY3Ga2dw">
+          <field name="FIELDNAME">R1_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="Q5|K2h[Qq|%f=X(/0D/3">
+          <field name="TEXT">(TODO: routing_table)</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="^znB+yiTi+9b$}5~6(7V">
+          <field name="TEXT">r_1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="]A#r;/c%3I1r+qPMtbFN">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="J@BnTJEZxODnZ^gzY5u!">
+              <field name="TEXT">R2</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="I0.a;jqa-x#8(f[xwkZ}">
+              <field name="FIELDNAME">Scene</field>
+            </shadow>
+            <block type="objectList" id="^Su3/y6*r;t4G=gHWBX,">
+              <field name="FIELDNAME">R2_annotation</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="nopPo1PPXKGeo6wt3Tsu">
+              <field name="TEXT">(TODO: routing_table)</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id=":wwT}y1/y7Ua^`%]RwW4">
+              <field name="TEXT">r_2</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="684.5999999999999" viewport-y="107" viewport-w="774.4" viewport-h="398" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
