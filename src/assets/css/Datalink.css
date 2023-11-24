@@ -1,0 +1,49 @@
+.section_wrapper {
+    text-align: center;
+    margin: 100px;
+}
+
+.centered-image {
+    display: block;
+    margin: 20px auto;
+}
+.smaller-image {
+    width: 50%;
+    height: auto;
+}
+.image-container {
+    display: flex;
+}
+.image-item {
+    margin-right: 5px;
+}
+
+.side-by-side-image {
+    width: 50%;
+    height: auto;
+}
+.side-by-side-image-with-description {
+    width: 100%;
+    height: auto;
+}
+.section_wrapper h1,
+.section_wrapper h2 {
+    text-align: center;
+}
+.section_wrapper h3 {
+    font-size: 25px;
+    color: #494949;
+    margin-top: 10px;
+}
+
+
+.section_wrapper p {
+    text-align: left;
+}
+
+.image-description {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
