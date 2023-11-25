@@ -11,7 +11,9 @@ function Network() {
       </header>
       <hr className="horizontal_line"/>
       <main>
+        
         <section>
+        <div className="explaination-container">
           <div className="container">
             <h2>What is Network Layer</h2>
               <p className="left-align">Network layer is responsible for packet forwarding and routing through  routers. The Internet Protocol (IP) is one of the main protocols used at this layer</p>
@@ -170,6 +172,7 @@ function Network() {
               
               
           </div>
+          </div>
         </section>
         <div></div>
         <section></section>
@@ -178,6 +181,7 @@ function Network() {
       </main>
 
       <div>
+        <br></br>
           <button><Link to="/network/Network_sub1">network page2</Link></button>
           <button><Link to="/network/Network_sub2">network page3</Link></button>
           <Link to="/layer">go back</Link>

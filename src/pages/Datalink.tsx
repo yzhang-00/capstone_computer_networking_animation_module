@@ -52,6 +52,7 @@ function Datalink() {
             className="smaller-image"
           />
         </div>
+        <br></br>
         <button>
           <Link to="/datalink/Datalink_sub1">Page2</Link>
         </button>

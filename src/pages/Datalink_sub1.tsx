@@ -233,7 +233,7 @@ function Datalink_sub1() {
           </p>
           <p> We will discuss Layer 2 switching in the next page.</p>
         </div>
-
+<br></br>
         <button>
           <Link to="/datalink">Page1</Link>
         </button>
