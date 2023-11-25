@@ -117,7 +117,7 @@ function Animation_3d_details() {
           send back the web-page content in several packets. 
         </p>
 
-        <Link to="https://v3d.net/q8o">
+        <Link to="https://v3d.net/q98">
             <button className="light-blue-btn">Back to Animation</button>
         </Link>
 

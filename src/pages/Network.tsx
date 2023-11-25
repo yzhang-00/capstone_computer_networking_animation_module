@@ -6,7 +6,7 @@ function Network() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Netework layer</h1>
+        <h1>Network layer</h1>
         
       </header>
       <hr className="horizontal_line"/>
