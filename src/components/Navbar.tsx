@@ -33,6 +33,21 @@ function NavigationBar() {
                     Animation Module Details
                   </NavDropdown.Item>
                 </NavDropdown>
+
+                <NavDropdown title="Application Layer" id="dropdown2">
+                  <LinkContainer to="/transport">
+                    <NavDropdown.Item href="#dropdown1/page-1">
+                      Application
+                    </NavDropdown.Item>
+                  </LinkContainer>
+                  <NavDropdown.Item href="/transport/Transport_sub1">
+                      Application page 2
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/transport/Transport_sub2">
+                    Application page 3
+                  </NavDropdown.Item>
+                </NavDropdown>
+
                 <NavDropdown title="Transport Layer" id="dropdown2">
                   <LinkContainer to="/transport">
                     <NavDropdown.Item href="#dropdown1/page-1">
