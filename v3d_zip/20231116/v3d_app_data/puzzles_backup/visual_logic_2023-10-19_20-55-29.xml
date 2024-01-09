@@ -1,0 +1,72 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000455" scrolly="20" scale="0.9"></tab>
+  <tab name="main" type="CommonTab" active="true" scrollx="145.88126585170505" scrolly="214.00000000000006" scale="0.9">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id=",?U,}6h8=_)[6001H-Ph">camera_moving</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemStyle" id="ZvP]:a!83,!G~0tOvekI" x="70" y="30">
+      <field name="PROPERTY">display</field>
+      <field name="PARENT">TRUE</field>
+      <value name="VALUE">
+        <block type="text" id="N8btL1#F*a-3;nKRrT:K">
+          <field name="TEXT">block</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="^6u%T(FiF[4^1#7Su}GE">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="lists_create_with" id="M|vRn09|Ras{eb~h7oBl">
+          <mutation items="2"></mutation>
+          <value name="ADD0">
+            <block type="text" id=":s[7EKmS/O@WcR7}%L96">
+              <field name="TEXT">left_panel</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="text" id="x%zEChw5!H5h#0VJ#Kt|">
+              <field name="TEXT">right_panel</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="1EC]C4Ne%kq~_8:h6nxe" x="70" y="150">
+      <field name="VAR" id=",?U,}6h8=_)[6001H-Ph">camera_moving</field>
+      <value name="VALUE">
+        <block type="logic_boolean" id="rQ5=%-Ag@G9^82@lkpMf">
+          <field name="BOOL">FALSE</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimeout" id="9.,ObhSos6u)LTA7Rvy9" x="70" y="210">
+      <value name="VALUE">
+        <shadow type="math_number" id="t8,MNPP{y`#zBJ${-YZ%">
+          <field name="NUM">5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="variables_set" id="or{oB.8=m]y`N72FW5]w">
+          <field name="VAR" id=",?U,}6h8=_)[6001H-Ph">camera_moving</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="iV0s$d,`_v:7b?SsN~^t">
+              <field name="BOOL">TRUE</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="play_button" type="CommonTab" active="false" scrollx="-1.1368683772161603e-13" scrolly="0" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="tu|Udn4#6VGLyG$7`n=*" x="270" y="110">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="{j*rj,-(5`WUG;0^MAu:">
+          <field name="TEXT">play_button</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="684.5999999999999" viewport-y="107" viewport-w="774.4" viewport-h="398" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

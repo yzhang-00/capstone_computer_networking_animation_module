@@ -1,7 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0 ;
   text-align: center;
 }
 
@@ -39,4 +37,91 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body{
+  height: 100%;
+  background-image: url("./assets/img/background_main_networks_nodes.svg");
+  background-color: #f8d763;
+  
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+
+.horizontal_line{
+  border: none;
+  height: 1px;  /* thickness */
+  background-color: #666464;
+  width: 100%;
+  margin: 0;
+}
+
+.gif-container {
+  position: relative;
+  max-width: auto;
+  /* border: 1px dashed #1b1a1a;*/
+}
+
+.gif-logo-container{
+  position: absolute;
+  width: 100px;
+  top: 8%;
+  left: 20%;
+}
+
+.explaination-container {
+  background-color: #fff;
+  box-shadow: 0 29px 32px -20px rgba(0,0,0,.5),0 4px 11px -3px rgba(0,0,0,.25);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: relative;
+  z-index: 4;
+  transition: all .3s ease
+}
+
+.explaination-subcontainer {
+  background-color: #ebebeb;
+  padding: 20px;
+
+  border-radius: 10px;  /* round-corner */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+  transition: all .3s ease
+}
+
+.explanation-header{
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.explanation-content{
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.light-blue-btn{
+  background-color: #b6e6fe;
+    border-color: #b6e6fe;
 }
