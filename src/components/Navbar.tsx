@@ -18,75 +18,98 @@ function NavigationBar() {
 
             <Col md={11}>
               <Nav className="header">
+
                 <LinkContainer to="/">
                   <Nav.Link href="#home">Home</Nav.Link>
                 </LinkContainer>
+
                 <LinkContainer to="/layer">
                   <Nav.Link href="#main">Main Page</Nav.Link>
                 </LinkContainer>
-                <NavDropdown title="Animation Module" id="dropdown1">
+
+                <NavDropdown title="Animation Module" id="dropdown0">
                   <a className="nav-link" href="https://v3d.net/q98">
                     Animation Module
                   </a>
-                  <NavDropdown.Item href="/animation_3d/details">
-                    {" "}
+                  <LinkContainer to="/animation_3d/details">
+                    <NavDropdown.Item href="#dropdown0/page-1">
                     Animation Module Details
-                  </NavDropdown.Item>
-                </NavDropdown>
-
-                <NavDropdown title="Application Layer" id="dropdown2">
-                  <LinkContainer to="/transport">
-                    <NavDropdown.Item href="#dropdown1/page-1">
-                      Application
                     </NavDropdown.Item>
                   </LinkContainer>
-                  <NavDropdown.Item href="/transport/Transport_sub1">
-                      Application page 2
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/transport/Transport_sub2">
+                </NavDropdown>
+
+                <NavDropdown title="Application Layer" id="dropdown1">
+                  <LinkContainer to="/application">
+                    <NavDropdown.Item href="#dropdown1/page-1">
+                    Application
+                    </NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to="/application/Application_sub1">
+                    <NavDropdown.Item href="#dropdown1/page-2">
+                    Application page 2
+                    </NavDropdown.Item>
+                  </LinkContainer>
+				          <LinkContainer to="/application/Application_sub1">
+                    <NavDropdown.Item href="#dropdown1/page-3">
                     Application page 3
-                  </NavDropdown.Item>
+                    </NavDropdown.Item>
+                  </LinkContainer>
                 </NavDropdown>
 
                 <NavDropdown title="Transport Layer" id="dropdown2">
                   <LinkContainer to="/transport">
-                    <NavDropdown.Item href="#dropdown1/page-1">
+                    <NavDropdown.Item href="#dropdown2/page-1">
                       Transport
                     </NavDropdown.Item>
                   </LinkContainer>
-                  <NavDropdown.Item href="/transport/Transport_sub1">
-                    transport page 2
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/transport/Transport_sub2">
-                    transport page 3
-                  </NavDropdown.Item>
+                  <LinkContainer to="/transport/Transport_sub1">
+                    <NavDropdown.Item href="#dropdown2/page-2">
+                      Transport page 2
+                    </NavDropdown.Item>
+                  </LinkContainer>
+				          <LinkContainer to="/transport/Transport_sub2">
+                    <NavDropdown.Item href="#dropdown2/page-3">
+                      Transport page 3
+                    </NavDropdown.Item>
+                  </LinkContainer>
                 </NavDropdown>
-                <NavDropdown title="Network Layer" id="dropdown1">
+
+                <NavDropdown title="Network Layer" id="dropdown3">
                   <LinkContainer to="/network">
-                    <NavDropdown.Item href="#dropdown1/page-1">
+                    <NavDropdown.Item href="#dropdown3/page-1">
                       Network
                     </NavDropdown.Item>
                   </LinkContainer>
-                  <NavDropdown.Item href="/network/Network_sub1">
-                    network page 2
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/network/Network_sub2">
-                    network page 3
-                  </NavDropdown.Item>
+                  <LinkContainer to="/network/Network_sub1">
+                    <NavDropdown.Item href="#dropdown3/page-2">
+                      Network page 2
+                    </NavDropdown.Item>
+                  </LinkContainer>
+				          <LinkContainer to="/network/Network_sub2">
+                    <NavDropdown.Item href="#dropdown3/page-3">
+                      Network page 3
+                    </NavDropdown.Item>
+                  </LinkContainer>
                 </NavDropdown>
+
                 <NavDropdown title="Datalink Layer" id="dropdown4">
                   <LinkContainer to="/datalink">
-                    <NavDropdown.Item href="#dropdown2/page-1">
+                    <NavDropdown.Item href="#dropdown4/page-1">
                       Datalink
                     </NavDropdown.Item>
                   </LinkContainer>
-                  <NavDropdown.Item href="/datalink/Datalink_sub1">
-                    datalink page 2
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/datalink/Datalink_sub2">
-                    datalink page 3
-                  </NavDropdown.Item>
+                  <LinkContainer to="/datalink/Datalink_sub1">
+                    <NavDropdown.Item href="#dropdown4/page-2">
+                      Datalink page 2
+                    </NavDropdown.Item>
+                  </LinkContainer>
+                  <LinkContainer to="/datalink/Datalink_sub2">
+                    <NavDropdown.Item href="#dropdown4/page-3">
+                      Datalink page 3
+                    </NavDropdown.Item>
+                  </LinkContainer>
                 </NavDropdown>
+
               </Nav>
             </Col>
           </Row>
