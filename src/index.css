@@ -56,7 +56,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
   }
   a:hover {
     color: #747bff;
@@ -64,13 +64,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-p {
-  text-align: left;
-}
-h2 {
-  text-align: left;
-}
-li{
-  text-align: left;
 }

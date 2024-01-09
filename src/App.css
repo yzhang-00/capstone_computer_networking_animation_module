@@ -41,9 +41,8 @@
 
 body{
   height: 100%;
-  background-image: url("./assets/img/background_main_networks_nodes.svg");
-  background-color: #f8d763;
-  
+  background-image: url("./assets/img/background_main_networks_nodes.svg")!important;
+  background-color: #f8d763!important;
   background-size: cover;
 }
 
