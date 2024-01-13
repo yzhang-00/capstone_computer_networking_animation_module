@@ -1,3 +1,14 @@
+p {
+    text-align: left;
+}
+h2 {
+text-align: left;
+}
+li{
+text-align: left;
+}
+
+
 .section_wrapper {
     background-color: #fff;
     box-shadow: 0 29px 32px -20px rgba(0,0,0,.5),0 4px 11px -3px rgba(0,0,0,.25);
@@ -11,33 +22,7 @@
     transition: all .3s ease
 }
 
-.centered-image {
-    display: block;
-    margin: 20px auto;
-}
-.smaller-image {
-    width: 50%;
-    height: auto;
-}
-.smallest-image {
-    width: 30%;
-    height: auto;
-}
-.image-container {
-    display: flex;
-}
-.image-item {
-    margin-right: 5px;
-}
 
-.side-by-side-image {
-    width: 50%;
-    height: auto;
-}
-.side-by-side-image-with-description {
-    width: 100%;
-    height: auto;
-}
 .section_wrapper h1,
 .section_wrapper h2 {
     text-align: center;
@@ -53,9 +38,17 @@
     text-align: left;
 }
 
-.image-description {
-    margin-top: 5px;
-    text-align: center;
-    font-size: 14px;
-    color: #555;
+.centered-image {
+    display: block;
+    margin: 20px auto;
+}
+.smaller-image {
+    width: 50%;
+    height: auto;
+}
+
+.socrates-words{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
 }

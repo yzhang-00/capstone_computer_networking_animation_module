@@ -77,17 +77,17 @@ function NavigationBar() {
                 <NavDropdown title="Network Layer" id="dropdown3">
                   <LinkContainer to="/network">
                     <NavDropdown.Item href="#dropdown3/page-1">
-                      Network
+                      Introduction
                     </NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/network/Network_sub1">
                     <NavDropdown.Item href="#dropdown3/page-2">
-                      Network page 2
+                      Routing Table and Protocols
                     </NavDropdown.Item>
                   </LinkContainer>
 				          <LinkContainer to="/network/Network_sub2">
                     <NavDropdown.Item href="#dropdown3/page-3">
-                      Network page 3
+                      IP Fragmentation
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
@@ -95,17 +95,17 @@ function NavigationBar() {
                 <NavDropdown title="Datalink Layer" id="dropdown4">
                   <LinkContainer to="/datalink">
                     <NavDropdown.Item href="#dropdown4/page-1">
-                      Datalink
+                      Introduction
                     </NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/datalink/Datalink_sub1">
                     <NavDropdown.Item href="#dropdown4/page-2">
-                      Datalink page 2
+                      Data Link Layer
                     </NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/datalink/Datalink_sub2">
                     <NavDropdown.Item href="#dropdown4/page-3">
-                      Datalink page 3
+                      Layer 2 Swtiching
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>

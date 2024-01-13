@@ -14,12 +14,15 @@ import dua from "../assets/img//datalink_img/dua.png";
 import ppp_format_png from "../assets/img//datalink_img/ppp_format.png";
 import tunnel_png from "../assets/img//datalink_img/tunnel.png";
 import switchnet_png from "../assets/img//datalink_img/switch_net.png";
+import arp_png from "../assets/img//datalink_img/ARP.png";
+import arp_request_png from "../assets/img//datalink_img/ARP_request.png";
+import arp_reply_png from "../assets/img//datalink_img/ARP_reply.png";
 function Datalink_sub1() {
   return (
     <div className="App">
       <header className="App-header">
         <div className="section_wrapper">
-          <h1>Data Link Protocol</h1>
+          <h1>Data Link Layer</h1>
           <hr className="horizontal_line"></hr>
           <h2>Internet protocol suite</h2>
           <p>
@@ -58,14 +61,17 @@ function Datalink_sub1() {
           <br></br>
           <h2>Media access control (MAC)</h2>
           <p>
-            -In a broadcast network, the stations must ensure that only one
-            station transmits at a time on the shared communication channel
-          </p>
-          <p>
             -Protocols to determine who can transmit at any time are called
-            Medium Access Control (MAC) protocols Ethernet: CSMA/CD, WiFi:
-            CSMA/CA
+            Medium Access Control (MAC) protocols 
           </p>
+          <ul>
+            <li>
+              Ethernet: CSMA/CD
+            </li>
+            <li>
+              WiFi: CSMA/CA
+            </li> 
+          </ul>
           <p>
             MAC protocol is running on a NIC (network interface controller): NIC
             has a MAC address
@@ -124,15 +130,14 @@ function Datalink_sub1() {
             />
           </div>
           <br />
-          <h2>Two Ethernet Frame Formats</h2>
+          <h2>Ethernet Frame Formats</h2>
           <p>Two Ethernet frame formats are in use, with subtle differences:</p>
           <p>
             <span style={{ color: "blue", fontWeight: "bold" }}>
               1. Ethernet II (DIX)
             </span>{" "}
             An industry standard from 1982 that is based on the first
-            implementation of CSMA/CD by Xerox. It is the most commonly used
-            format
+            implementation of Ethernet MAC by Xerox. It is the most commonly used format
           </p>
           <p>
             <span style={{ color: "blue", fontWeight: "bold" }}>2. 802.3</span>{" "}
@@ -148,7 +153,11 @@ function Datalink_sub1() {
           <h3>IEEE 802.2/802.3 encapsulation (RFC 1042)</h3>
           <img src={ethernet3_png} alt="ethernet3" className="smaller-image" />
           <br />
-          <h2>Point-to-point links</h2>
+
+          <details>
+          <summary>
+            <h2>Point-to-point links</h2>
+          </summary>
           <img src={ppp} alt="ppp" className="smaller-image" />
           <br />
           <br />
@@ -204,8 +213,14 @@ function Datalink_sub1() {
             The above functions are supported by helper protocols: LCP, PAP,
             CHAP, NCP
           </p>
+          </details>
+          
           <br></br>
+
+          <details>
+          <summary>
           <h2>Tunneling Protocols</h2>
+          </summary>
           <p>
             Tunnels are logical point-to-point links: 1. They appear to the
             endpoints as a point-to-point links. 2. The link is realized as a
@@ -231,9 +246,36 @@ function Datalink_sub1() {
             (Switched Ethernet), wide area networks (MPLS, Frame Relay), or both
             (ATM).
           </p>
+          </details>
+
+          <h2>ARP</h2>
+          <p>A translation is required between IP and MAC layer addresses</p>
+          <p>Address Resolution Protocol(ARP): </p>
+          <ul>
+          <li>Each IP node (host or router) on LAN has ARP table.</li>
+          <li>ARP table: Provides mappings for IP address to MAC address for some LAN nodes.</li>
+          </ul>
+          <img src={arp_png} alt="ARP role" className="smaller-image" />
+
+          <p>
+            A wants to send datagram to B, and B’s MAC address not in A’s ARP table.
+          </p>
+          <p>
+            A broadcasts ARP query packet(ARP Request), containing B's IP address
+          </p>
+          <img src={arp_request_png} alt="ARP Request" className="smallest-image" />
+          <p>
+            B receives ARP packet, replies to A with its (B's) MAC address
+          </p>
+          <img src={arp_reply_png} alt="ARP Reply" className="smallest-image" />
+          
+
+
+
+
           <p> We will discuss Layer 2 switching in the next page.</p>
         </div>
-<br></br>
+        <br></br>
         <button>
           <Link to="/datalink">Page1</Link>
         </button>

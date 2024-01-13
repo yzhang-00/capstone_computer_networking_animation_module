@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/Datalink.css";
+import datalink_highlight_png from "../assets/img/datalink_img/datalink_highlight.png";
 import intro_png from "../assets/img//datalink_img/data_link.png";
 import broadcast_png from "../assets/img//datalink_img/boardcast_network.png";
 import point_to_point_png from "../assets/img//datalink_img/point_to_point.png";
@@ -14,6 +15,22 @@ function Datalink() {
           <hr className="horizontal_line"></hr>
           <h2>Introduction</h2>
           <p>
+            Data link layer is the interface to the actual network hardware.
+            Data link layer has the task of:
+            <ul>
+              <li>Transferring data from the network layer of the source machine to the
+              network layer of destination machine by packaging data from upper layer into
+              frames and then transmitting into the media.
+              </li>
+              <li>
+                Convert the raw bit stream from machine hardware arriving at the destination machine’s physical layer
+                into groups of bits (frame) such it can be processed by the upper layers.
+              </li>
+            </ul>
+          </p>
+          <img src={datalink_highlight_png} alt="datalink" className="smaller-image" />
+
+          {/* <p>
             The data link layer, or layer 2, is the second layer of the
             seven-layer OSI model of computer networking. This layer is the
             protocol layer that transfers data between nodes on a network
@@ -22,8 +39,11 @@ function Datalink() {
             entities and may also provide the means to detect and possibly
             correct errors that can occur in the physical layer.
           </p>
-          <img src={intro_png} alt="datalink" className="centered-image" />
-
+          <img src={intro_png} alt="datalink" className="centered-image" /> */}
+          <p>
+            “MAC” (Media Access Control) addresses (i.e. Physical Addresses) are used
+            in frame headers to identify source and destination physically.
+          </p>
           <p>
             The data link layer is concerned with local delivery of frames
             between nodes on the same level of the network. Data-link frames, as
