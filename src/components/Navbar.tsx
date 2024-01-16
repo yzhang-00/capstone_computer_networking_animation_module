@@ -58,17 +58,17 @@ function NavigationBar() {
                 <NavDropdown title="Transport Layer" id="dropdown2">
                   <LinkContainer to="/transport">
                     <NavDropdown.Item href="#dropdown2/page-1">
-                      Transport
+                      Introduction
                     </NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/transport/Transport_sub1">
                     <NavDropdown.Item href="#dropdown2/page-2">
-                      Transport page 2
+                      TCP Header Files
                     </NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/transport/Transport_sub2">
                     <NavDropdown.Item href="#dropdown2/page-3">
-                      Transport page 3
+                      Connections and Control
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
