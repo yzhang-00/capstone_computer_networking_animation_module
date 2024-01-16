@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../assets/css/Network.css";
-import routing_components_img from "../assets/img//ip/routing_components.png";
-import lookup_img from "../assets/img//ip/lookup.png";
-import rip_rt_adv_img from "../assets/img//ip/rip_rt_adv.png";
-import rip_receive_img from "../assets/img//ip/rip_receive.png";
-import ospf_routing_img from "../assets/img//ip/ospf_routing.png";
-import rip_ospf_bgp_img from "../assets/img//ip/rip&ospf&bgp.png";
-import BGPpeer_adv_img from "../assets/img//ip/BGPpeer_adv.png";
+import routing_components_img from "../assets/img/ip/routing_components.png";
+import lookup_img from "../assets/img/ip/lookup.png";
+import rip_rt_adv_img from "../assets/img/ip/RIP_rt_adv.png";
+import rip_receive_img from "../assets/img/ip/RIP_receive.png";
+import ospf_routing_img from "../assets/img/ip/ospf_routing.png";
+import rip_ospf_bgp_img from "../assets/img/ip/rip&ospf&bgp.png";
+import BGPpeer_adv_img from "../assets/img/ip/BGPpeer_adv.png";
 
 function Network_sub1() {
   return (
