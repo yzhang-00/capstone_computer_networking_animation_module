@@ -18,7 +18,6 @@ function NavigationBar() {
 
             <Col md={11}>
               <Nav className="header">
-
                 <LinkContainer to="/">
                   <Nav.Link href="#home">Home</Nav.Link>
                 </LinkContainer>
@@ -33,7 +32,7 @@ function NavigationBar() {
                   </a>
                   <LinkContainer to="/animation_3d/details">
                     <NavDropdown.Item href="#dropdown0/page-1">
-                    Animation Module Details
+                      Animation Module Details
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
@@ -41,17 +40,17 @@ function NavigationBar() {
                 <NavDropdown title="Application Layer" id="dropdown1">
                   <LinkContainer to="/application">
                     <NavDropdown.Item href="#dropdown1/page-1">
-                    Application
+                      Application
                     </NavDropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/application/Application_sub1">
                     <NavDropdown.Item href="#dropdown1/page-2">
-                    Application page 2
+                      HTTP
                     </NavDropdown.Item>
                   </LinkContainer>
-				          <LinkContainer to="/application/Application_sub1">
+                  <LinkContainer to="/application/Application_sub2">
                     <NavDropdown.Item href="#dropdown1/page-3">
-                    Application page 3
+                      Web cache & Cookies
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
@@ -67,7 +66,7 @@ function NavigationBar() {
                       Transport page 2
                     </NavDropdown.Item>
                   </LinkContainer>
-				          <LinkContainer to="/transport/Transport_sub2">
+                  <LinkContainer to="/transport/Transport_sub2">
                     <NavDropdown.Item href="#dropdown2/page-3">
                       Transport page 3
                     </NavDropdown.Item>
@@ -85,7 +84,7 @@ function NavigationBar() {
                       Routing Table and Protocols
                     </NavDropdown.Item>
                   </LinkContainer>
-				          <LinkContainer to="/network/Network_sub2">
+                  <LinkContainer to="/network/Network_sub2">
                     <NavDropdown.Item href="#dropdown3/page-3">
                       IP Fragmentation
                     </NavDropdown.Item>
@@ -109,7 +108,6 @@ function NavigationBar() {
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
-
               </Nav>
             </Col>
           </Row>
