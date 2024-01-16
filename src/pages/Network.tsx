@@ -42,8 +42,8 @@ function Network() {
                 
 
               
-              <p>IP datagram is encapsulated within <a href="capstone_computer_networking_animation_module/#/datalink/Datalink_sub1">Ethernet frame</a>. It is payload data within Ethernet frame.</p>
-              <p><a href="capstone_computer_networking_animation_module/#/transport">TCP/UDP segment</a> is encapsulated within IP datagram. It is the payload data within IP datagram.</p>
+              <p>IP datagram is encapsulated within <a href="/#/datalink/Datalink_sub1">Ethernet frame</a>. It is payload data within Ethernet frame.</p>
+              <p><a href="/#/transport">TCP/UDP segment</a> is encapsulated within IP datagram. It is the payload data within IP datagram.</p>
               <img src={encap_img} alt="Encapsulation relationship" className="smaller-image"></img>
               <br></br>
               <br></br>
@@ -56,7 +56,7 @@ function Network() {
                   <li>Differentiated Services (DS) field: Specifies the service and the importance desired by this datagram</li>
                   <li>Total length: size of payload and header in bytes. 16 bits &gt; 2<sup>16</sup> -1  bytes =  65535 bytes is max. size</li>
                   <br></br>
-                  <p>The following fields play a role in <a href="capstone_computer_networking_animation_module/#/network/Network_sub2">IP fragmentation:</a></p>
+                  <p>The following fields play a role in <a href="/#/network/Network_sub2">IP fragmentation:</a></p>
                   <li>Identification</li>
                   <li>Flags (3  bits): First bit always set to 0, DF bit (Do not fragment), MF bit (More fragments)</li>
                   <li>Fragment offset</li>
