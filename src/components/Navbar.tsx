@@ -27,7 +27,7 @@ function NavigationBar() {
                 </LinkContainer>
 
                 <NavDropdown title="Animation Module" id="dropdown0">
-                  <a className="nav-link" href="https://v3d.net/q98">
+                  <a className="nav-link" href="https://v3d.net/s7r">
                     Animation Module
                   </a>
                   <LinkContainer to="/animation_3d/details">

@@ -23,7 +23,7 @@ function Layer() {
                 id="lyrbtns"
                 className="btn-group-justified btn-group-sm btn-group-vertical my-auto"
               >
-                <Link to="https://v3d.net/q98">
+                <Link to="https://v3d.net/s7r">
                   <button className="a-btn" onClick={btn_clk}>
                     3D Animation Module
                   </button>
