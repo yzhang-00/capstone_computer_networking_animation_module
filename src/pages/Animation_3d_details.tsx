@@ -58,9 +58,9 @@ function Animation_3d_details() {
           top layer (Application layer). 
           <br></br> <br></br>
           Here Application layer uses HTTP. PC1 (client) issues a request HTTP. Filling the header fields of HTTP, and then pass to the next Layer, Transport Layer. TCP is a well-known
-          and reliable transport protocol. You can find detailed information <a href="/transport"> here </a> on how to interpret its header 
+          and reliable transport protocol. You can find detailed information <a href="./#/transport"> here </a> on how to interpret its header 
           fields and mechanism of the protocol. Likewise, TCP header is encapsulated into IP header, where the destination IP address (web-page server at PC7 128.100.82.85) is declared. 
-          You can find more information about <a href="/network"> Network layer and IP protocol </a>. Finally, the <a href="/datalink"> Data link layer </a> adds Ethernet header. A ready-to-go packet
+          You can find more information about <a href="./#/network"> Network layer and IP protocol </a>. Finally, the <a href="./#/datalink"> Data link layer </a> adds Ethernet header. A ready-to-go packet
           has a encapsulated header shown below.
           </p>
 
@@ -87,7 +87,7 @@ function Animation_3d_details() {
           <h3 className="explanation-header"> Router and routing table </h3>
           <p className="explanation-content"> 
             Given the PC7's IP address is 128.100.82.85, the Router uses longest-prefix match to 
-            find which interface to send. You can find information on how to interpret routing table entries in <a href="/network"> Network layer and IP protocol page</a> Based on the routing table of Router 1
+            find which interface to send. You can find information on how to interpret routing table entries in <a href="./#/network"> Network layer and IP protocol page</a> Based on the routing table of Router 1
             shown below. The packet is sent to interface named Eth2, the default entry. 
           </p>
           <img  src={routing_table_img} alt="Routing table of R1"  width="30%"/> 
