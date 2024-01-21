@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import tcp_header_png from "../assets/img/tcp_header.png";
+import tcp_header_png from "../assets/img/transport/tcp_header.png";
 
 function Transport_sub1() {
   return (

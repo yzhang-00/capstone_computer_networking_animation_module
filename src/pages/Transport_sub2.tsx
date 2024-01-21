@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import tcp_connection_png from "../assets/img/tcp_connection.png";
-import tcp_termination_png from "../assets/img/tcp_termination.png";
-import tcp_slidingWin1_png from "../assets/img/tcp_slidingWin1.png";
-import tcp_slidingWin2_png from "../assets/img/tcp_slidingWin2.png";
+import tcp_connection_png from "../assets/img/transport/tcp_connection.png";
+import tcp_termination_png from "../assets/img/transport/tcp_termination.png";
+import tcp_slidingWin1_png from "../assets/img/transport/tcp_slidingWin1.png";
+import tcp_slidingWin2_png from "../assets/img/transport/tcp_slidingWin2.png";
 
 function Transport_sub2() {
   return (

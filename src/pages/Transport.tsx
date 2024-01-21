@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import tcp_seg_png from "../assets/img/tcp_seg.png";
+import tcp_seg_png from "../assets/img/transport/tcp_seg.png";
 
 
 function Transport() {
