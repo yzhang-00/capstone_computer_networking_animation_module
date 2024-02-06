@@ -139,6 +139,9 @@ function NavigationBar() {
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
+                <LinkContainer to="/quiz">
+                  <Nav.Link href="#quiz">Quiz</Nav.Link>
+                </LinkContainer>
               </Nav>
             </Col>
           </Row>
