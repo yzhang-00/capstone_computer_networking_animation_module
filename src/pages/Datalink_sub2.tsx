@@ -367,14 +367,16 @@ function Datalink_sub2() {
           <img src={finalspt_png} alt="protocol" className="smaller-image" />
           <div className="image-description">Complete Spanning Tree</div>
         </div>
-<br></br>
+        <br></br>
         <button>
           <Link to="/datalink">Page1</Link>
         </button>
         <button>
           <Link to="/datalink/Datalink_sub1">Page2</Link>
         </button>
-        <Link to="/layer">Back to Layer page</Link>
+        <button>
+          <Link to="/layer">go back</Link>
+        </button>
       </header>
     </div>
   );

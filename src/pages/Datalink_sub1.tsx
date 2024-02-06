@@ -62,15 +62,11 @@ function Datalink_sub1() {
           <h2>Media access control (MAC)</h2>
           <p>
             -Protocols to determine who can transmit at any time are called
-            Medium Access Control (MAC) protocols 
+            Medium Access Control (MAC) protocols
           </p>
           <ul>
-            <li>
-              Ethernet: CSMA/CD
-            </li>
-            <li>
-              WiFi: CSMA/CA
-            </li> 
+            <li>Ethernet: CSMA/CD</li>
+            <li>WiFi: CSMA/CA</li>
           </ul>
           <p>
             MAC protocol is running on a NIC (network interface controller): NIC
@@ -137,7 +133,8 @@ function Datalink_sub1() {
               1. Ethernet II (DIX)
             </span>{" "}
             An industry standard from 1982 that is based on the first
-            implementation of Ethernet MAC by Xerox. It is the most commonly used format
+            implementation of Ethernet MAC by Xerox. It is the most commonly
+            used format
           </p>
           <p>
             <span style={{ color: "blue", fontWeight: "bold" }}>2. 802.3</span>{" "}
@@ -155,123 +152,127 @@ function Datalink_sub1() {
           <br />
 
           <details>
-          <summary>
-            <h2>Point-to-point links</h2>
-          </summary>
-          <img src={ppp} alt="ppp" className="smaller-image" />
-          <br />
-          <br />
-          <p>
-            Many data link connections are point-to-point serial links: Dial-in
-            or DSL access connects hosts to access routers & Long-distance links
-          </p>
-          <img src={dua} alt="dua" className="smaller-image" />
-          <p>
-            Data link layer protocols for point-to-point links are simple: 1.
-            Main role is encapsulation of IP datagrams. 2. No media access
-            control needed. 3. No address needed
-          </p>
-          <br />
-          <h3>Data link protocols for point-to-point links</h3>
-          <p>
-            <span style={{ color: "blue", fontWeight: "bold" }}>
-              HDLC (High-Level Data Link):
-            </span>{" "}
-            Widely used and influential standard (1979) & Default protocol for
-            serial links on Cisco routers
-          </p>
-          <p>
-            <span style={{ color: "blue", fontWeight: "bold" }}>
-              PPP (Point-to-Point Protocol):
-            </span>{" "}
-            Based on a variant of HDLC & Used for dial-in and for high-speed
-            routers
-          </p>
-          <p>
-            <span style={{ color: "blue", fontWeight: "bold" }}>
-              Ethernet point-to-point:
-            </span>{" "}
-            Used for long-distance point-to-point links (up to 100 Gbps)
-          </p>
-          <h3>PPP - IP encapsulation</h3>
-          <p>
-            The frame format of PPP is similar to HDLC and the 802.2 LLC frame
-            format:
-          </p>
-          <img src={ppp_format_png} alt="ppp" className="smaller-image" />
-          <p>
-            PPP assumes a duplex circuit; Note: PPP does not use addresses;
-            Usual maximum frame size is 1500
-          </p>
-          <h3>Additional PPP functionality</h3>
-          <p>
-            In addition to encapsulation, PPP supports: 1. Link configuration 2.
-            Link quality testing 3. Error detection 4. Option negotiation 5.
-            Address notification 6. Authentication
-          </p>
-          <p>
-            The above functions are supported by helper protocols: LCP, PAP,
-            CHAP, NCP
-          </p>
+            <summary>
+              <h2>Point-to-point links</h2>
+            </summary>
+            <img src={ppp} alt="ppp" className="smaller-image" />
+            <br />
+            <br />
+            <p>
+              Many data link connections are point-to-point serial links:
+              Dial-in or DSL access connects hosts to access routers &
+              Long-distance links
+            </p>
+            <img src={dua} alt="dua" className="smaller-image" />
+            <p>
+              Data link layer protocols for point-to-point links are simple: 1.
+              Main role is encapsulation of IP datagrams. 2. No media access
+              control needed. 3. No address needed
+            </p>
+            <br />
+            <h3>Data link protocols for point-to-point links</h3>
+            <p>
+              <span style={{ color: "blue", fontWeight: "bold" }}>
+                HDLC (High-Level Data Link):
+              </span>{" "}
+              Widely used and influential standard (1979) & Default protocol for
+              serial links on Cisco routers
+            </p>
+            <p>
+              <span style={{ color: "blue", fontWeight: "bold" }}>
+                PPP (Point-to-Point Protocol):
+              </span>{" "}
+              Based on a variant of HDLC & Used for dial-in and for high-speed
+              routers
+            </p>
+            <p>
+              <span style={{ color: "blue", fontWeight: "bold" }}>
+                Ethernet point-to-point:
+              </span>{" "}
+              Used for long-distance point-to-point links (up to 100 Gbps)
+            </p>
+            <h3>PPP - IP encapsulation</h3>
+            <p>
+              The frame format of PPP is similar to HDLC and the 802.2 LLC frame
+              format:
+            </p>
+            <img src={ppp_format_png} alt="ppp" className="smaller-image" />
+            <p>
+              PPP assumes a duplex circuit; Note: PPP does not use addresses;
+              Usual maximum frame size is 1500
+            </p>
+            <h3>Additional PPP functionality</h3>
+            <p>
+              In addition to encapsulation, PPP supports: 1. Link configuration
+              2. Link quality testing 3. Error detection 4. Option negotiation
+              5. Address notification 6. Authentication
+            </p>
+            <p>
+              The above functions are supported by helper protocols: LCP, PAP,
+              CHAP, NCP
+            </p>
           </details>
-          
+
           <br></br>
 
           <details>
-          <summary>
-          <h2>Tunneling Protocols</h2>
-          </summary>
-          <p>
-            Tunnels are logical point-to-point links: 1. They appear to the
-            endpoints as a point-to-point links. 2. The link is realized as a
-            sequence of subnets
-          </p>
-          <img src={tunnel_png} alt="tunnel" className="smaller-image" />
-          <br></br>
-          <br></br>
-          <h2>Switched Network</h2>
-          <p>
-            Some data link technologies can be used to build complete networks,
-            with their own addressing, routing, and forwarding mechanisms. These
-            networks are often called switched networks
-          </p>
-          <img src={switchnet_png} alt="tunnel" className="smaller-image" />
-          <p>
-            Data link layer technologies: 1. Switched Ethernet 2. Multiprotocol
-            Label Switching (MPLS) 3. ATM (Asynchronous Transfer Mode) Frame
-            Relay.
-          </p>
-          <p>
-            Some switched networks are intended for enterprise networks
-            (Switched Ethernet), wide area networks (MPLS, Frame Relay), or both
-            (ATM).
-          </p>
+            <summary>
+              <h2>Tunneling Protocols</h2>
+            </summary>
+            <p>
+              Tunnels are logical point-to-point links: 1. They appear to the
+              endpoints as a point-to-point links. 2. The link is realized as a
+              sequence of subnets
+            </p>
+            <img src={tunnel_png} alt="tunnel" className="smaller-image" />
+            <br></br>
+            <br></br>
+            <h2>Switched Network</h2>
+            <p>
+              Some data link technologies can be used to build complete
+              networks, with their own addressing, routing, and forwarding
+              mechanisms. These networks are often called switched networks
+            </p>
+            <img src={switchnet_png} alt="tunnel" className="smaller-image" />
+            <p>
+              Data link layer technologies: 1. Switched Ethernet 2.
+              Multiprotocol Label Switching (MPLS) 3. ATM (Asynchronous Transfer
+              Mode) Frame Relay.
+            </p>
+            <p>
+              Some switched networks are intended for enterprise networks
+              (Switched Ethernet), wide area networks (MPLS, Frame Relay), or
+              both (ATM).
+            </p>
           </details>
 
           <h2>ARP</h2>
           <p>A translation is required between IP and MAC layer addresses</p>
           <p>Address Resolution Protocol(ARP): </p>
           <ul>
-          <li>Each IP node (host or router) on LAN has ARP table.</li>
-          <li>ARP table: Provides mappings for IP address to MAC address for some LAN nodes.</li>
+            <li>Each IP node (host or router) on LAN has ARP table.</li>
+            <li>
+              ARP table: Provides mappings for IP address to MAC address for
+              some LAN nodes.
+            </li>
           </ul>
           <img src={arp_png} alt="ARP role" className="smaller-image" />
 
           <p>
-            A wants to send datagram to B, and B’s MAC address not in A’s ARP table.
+            A wants to send datagram to B, and B’s MAC address not in A’s ARP
+            table.
           </p>
           <p>
-            A broadcasts ARP query packet(ARP Request), containing B's IP address
+            A broadcasts ARP query packet(ARP Request), containing B's IP
+            address
           </p>
-          <img src={arp_request_png} alt="ARP Request" className="smallest-image" />
-          <p>
-            B receives ARP packet, replies to A with its (B's) MAC address
-          </p>
+          <img
+            src={arp_request_png}
+            alt="ARP Request"
+            className="smallest-image"
+          />
+          <p>B receives ARP packet, replies to A with its (B's) MAC address</p>
           <img src={arp_reply_png} alt="ARP Reply" className="smallest-image" />
-          
-
-
-
 
           <p> We will discuss Layer 2 switching in the next page.</p>
         </div>
@@ -282,7 +283,9 @@ function Datalink_sub1() {
         <button>
           <Link to="/datalink/Datalink_sub2">Page3</Link>
         </button>
-        <Link to="/layer">Back to Layer page</Link>
+        <button>
+          <Link to="/layer">go back</Link>
+        </button>
       </header>
     </div>
   );

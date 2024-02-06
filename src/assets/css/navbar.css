@@ -1,0 +1,23 @@
+.header .nav-link.active {
+    font-weight: bold;
+    color: white;
+}
+.header .nav-link{
+    color: white;
+}
+.header .nav-dropdown .dropdown-title {
+    font-weight: bold;
+}
+.header.navbar-nav{
+    font-size:18px;
+   
+}
+.col-md-1 {
+    flex: 0 0 auto;
+    width: 5%;
+}
+.col-md-1 img{
+    padding-top:10px;
+    padding-left: 10px;
+    margin-left: 10px;
+}

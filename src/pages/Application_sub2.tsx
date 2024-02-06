@@ -141,13 +141,16 @@ function Application_sub2() {
             </tr>
           </table>
         </div>
+        <br></br>
         <button>
-          <Link to="/application">Page1</Link>
+          <Link to="/application">Application</Link>
         </button>
         <button>
-          <Link to="/application/Application_sub1">Page2</Link>
+          <Link to="/application/Application_sub1">HTTP</Link>
         </button>
-        <Link to="/layer">Back to Layer page</Link>
+        <button>
+          <Link to="/layer">go back</Link>
+        </button>
       </header>
     </div>
   );

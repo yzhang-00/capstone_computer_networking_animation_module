@@ -203,12 +203,14 @@ function Application_sub1() {
       </header>
       <br></br>
       <button>
-        <Link to="/application">Page1</Link>
+        <Link to="/application">Application</Link>
       </button>
       <button>
-        <Link to="/application/Application_sub2">Page3</Link>
+        <Link to="/application/Application_sub2">Web cache & cookies</Link>
       </button>
-      <Link to="/layer">Back to Layer page</Link>
+      <button>
+        <Link to="/layer">go back</Link>
+      </button>
     </div>
   );
 }

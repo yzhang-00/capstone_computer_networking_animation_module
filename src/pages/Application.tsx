@@ -289,12 +289,14 @@ function Application() {
       </header>
       <br></br>
       <button>
-        <Link to="/application/Application_sub1">Page2</Link>
+        <Link to="/application/Application_sub1">HTTP</Link>
       </button>
       <button>
-        <Link to="/application/Application_sub2">Page3</Link>
+        <Link to="/application/Application_sub2">Web cache & cookies</Link>
       </button>
-      <Link to="/layer">go back</Link>
+      <button>
+        <Link to="/layer">go back</Link>
+      </button>
     </div>
   );
 }
