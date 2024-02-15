@@ -19,3 +19,22 @@ main{
 .text-container a{
     padding:20px;
 }
+.parent-container {
+    display: flex;
+    flex-direction: column; /* This ensures vertical stacking */
+    width: 100%;
+  }
+
+  
+.main-container, .second-container {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Additional styles for text-container and img-container if needed */
+  
