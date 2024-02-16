@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="2400" viewBox="0 0 1200 2400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-15" y1="1435.341" x2="1286" y2="961.815" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c5be9"/>
+      <stop offset="1" stop-color="#83ccec"/>
+    </linearGradient>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <path id="形状_1_拷贝" data-name="形状 1 拷贝" class="cls-1" d="M-11-29l186-1,200,1H614s188-6,196.742-7.11C1068.83-68.874,944.339,74.737,784,229c-87.638,84.317-98.657,97.29-120,134s-21.571,65.13-19,97c22.528,64.765,33.772,58.792,163,119,39.8,22.233,46.238,22.954,94,57,41.6,45.853,116,93,116,93s92.17,74.969,140,167c116.09,257.05,128,1542,128,1542l-1301-7Z"/>
+  </g>
+</svg>
