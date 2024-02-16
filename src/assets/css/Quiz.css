@@ -35,11 +35,11 @@
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
-ul {
+.question-card ul {
   list-style: none;
 }
 
-li {
+.question-card li {
   margin-top: 8px;
   background-color: darkgray;
   padding: 16px;
