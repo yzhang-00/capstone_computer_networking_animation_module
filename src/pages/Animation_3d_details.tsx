@@ -14,12 +14,12 @@ function Animation_3d_details() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1 className="header">A walkthrough for the 3D Animation Module </h1>
-      <hr className="horizontal_line"/>
-      <h2 className="subtitle"> Let's go through the animation step-by-step.</h2>
+      
 
       <div className="explaination-container">
-        
+        <h1 className="header">A walkthrough for the 3D Animation Module </h1>
+        <hr className="horizontal_line"/>
+        <h2 className="subtitle"> Let's go through the animation step-by-step.</h2>
         <h3 className="explanation-header"> Overview </h3>
         
         <p className="explanation-content">  
