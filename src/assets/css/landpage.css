@@ -1,6 +1,14 @@
 main{
     display: flex;
+    flex-direction: column;
+}
+.landing{
+    display: flex;
 } 
+.layercontent{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .img-container{
     width: 50%;
 }
@@ -15,7 +23,14 @@ main{
     flex-direction: column;
     justify-content: center;
     color:white;
+    margin-left: 5%;
 }
 .text-container a{
     padding:20px;
+}
+.layerimage{
+    margin-top: 10%;
+    max-width: 50%;
+    height: auto;
+    margin-right: 45%;
 }
