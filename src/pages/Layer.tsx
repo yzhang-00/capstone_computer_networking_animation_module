@@ -40,7 +40,6 @@ function Layer() {
                 <Link to="/datalink">
                   <button className="d-btn">Data Link Layer</button>
                 </Link>
-                <Link to="/">Back to main page</Link>
               </div>
             </div>
             <div className="col">
