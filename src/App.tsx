@@ -18,7 +18,7 @@ import Datalink_sub2 from "./pages/Datalink_sub2";
 import Application from "./pages/Application";
 import Application_sub1 from "./pages/Application_sub1";
 import Application_sub2 from "./pages/Application_sub2";
-// import Quiz from "./pages/Quiz/Quiz";
+import Quiz from "./pages/Quiz/Quiz";
 
 function App() {
   return (
@@ -57,7 +57,7 @@ function App() {
             <Route path="/network/Network_sub2" element={<Network_sub2 />} />
             <Route path="/datalink/Datalink_sub1" element={<Datalink_sub1 />} />
             <Route path="/datalink/Datalink_sub2" element={<Datalink_sub2 />} />
-            {/* <Route path="/quiz" element={<Quiz />} /> */}
+            <Route path="/quiz" element={<Quiz />} />
           </Routes>
         </div>
       </Router>
